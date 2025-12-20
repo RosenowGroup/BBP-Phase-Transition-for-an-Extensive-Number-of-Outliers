@@ -1,25 +1,24 @@
-[![Paper](https://img.shields.io/badge/paper-arXiv%3AXXXX.YYYYY-B31B1B.svg)](https://arxiv.org/abs/XXXX.YYYYY)
+[![Paper](https://img.shields.io/badge/paper-arXiv%3A2511.18501-B31B1B.svg)](https://arxiv.org/abs/2511.18501)
 [![DOI](https://zenodo.org/badge/{github_repo_id}.svg)](https://zenodo.org/badge/latestdoi/{github_repo_id})
 
-# Paper Title
+# BBP Phase Transition for an Extensive Number of Outliers
 
-Author 1, Author 2, Author 3
+Niklas Forner, Alexander Maloney, Bernd Rosenow
 
-[arXiv:XXXX.YYYYY](https://arxiv.org/abs/XXXX.YYYYY)
+[arXiv:2511.18501](https://arxiv.org/abs/2511.18501)
 
 ### Abstract
-Abstract Here
+Random-matrix theory helps disentangle signal from noise in large data sets. We analyze rectangular $p \times q$ matrices $W = W_0 + M$ in which the noise $M$ generates a Marchenko-Pastur bulk, whereas the signal $W_0$ injects an extensive set of degenerate singular values. Keeping $\mathrm{rank} W_0 / q$ finite as $p, q \to \infty$, we show that the singular value density obeys a quartic equation and derive explicit asymptotics in the strong-signal regime. The resulting generalized Baik-Ben Arous-Péché phase diagram yields a scaling law for the critical signal strength and clarifies how a finite density of spikes reshapes the bulk edges. Numerical simulations validate the theory and illustrate its relevance for high-dimensional inference tasks.
 
 ### Description
-This repository includes links, code, scripts, and data to generate the figures in a paper.
+This repository includes links, code, scripts, and data to generate the figures in the paper.
 
 ### Requirements
-The data in this project was generated via ....   Everything included in the [data](https://github.com/DelMaestroGroup/papers-code-template/tree/main/data) directory was generated via:
-
-* [Dependency Name](https://dependencelink)
-
-### Support
-The creation of these materials was supported in part by ....
+The data in this project was generated via Python with the following packages:
+- numpy
+- matplotlib.pyplot
+- time
+- scipy.stats
 
 
 ### Figures
